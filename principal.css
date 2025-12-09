@@ -1,0 +1,104 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+    /* CSS PRINCIPAL — sempre funciona (celular, navegador, etc) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* evita vazamentos */
+    background-color: #8ecbff;
+}
+
+
+
+@media (max-width: 450px) {
+
+    header {
+    width: 100%;
+    background-color: #000000;
+    display: inline-flex;
+    height: 55px;
+}
+/*   whatss   */
+.whatss{
+    width: 38px;
+    margin-left: 28%;
+    margin-top: 25%;
+}
+/*   whatss   */
+/*   Logo   */
+.imagem-Nome {
+    width: 78px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    margin-left: 33%;
+}
+
+.istraga{
+    width: 33px;
+    margin-top: 28%;
+    margin-left: 28%;
+    display: none;
+}
+/*   Logo   */
+/*   Menu   */
+
+.navbar {
+  background: #000;
+  color: #2290ef;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 27%;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+/* Menu escondido */
+#menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #000000ec;
+  position: fixed;
+  margin-top: 12%;
+  margin-left: 77%;
+  border-radius: 12px;
+}
+
+#menu li {
+  border-bottom: 1px solid #333;
+}
+
+#menu li a {
+  display: block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  color: #8ecbff;
+}
+
+#menu li a:hover {
+  background: #333;
+}
+
+/*   Menu   */
+
+
+
+
+}
