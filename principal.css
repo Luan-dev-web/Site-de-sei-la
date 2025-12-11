@@ -1,102 +1,213 @@
-body, html{
-    margin: 0;
-    padding: 0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
-    /* CSS PRINCIPAL — sempre funciona (celular, navegador, etc) */
+
+/* CSS PRINCIPAL — sempre funciona (celular, navegador, etc) */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    overflow-x: hidden; /* evita vazamentos */
-    background-color: #8ecbff;
+html,
+body {
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #92cbfd;
 }
-
-
 
 @media (max-width: 450px) {
 
-    header {
+  html,
+  body {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #92cbfd;
+  }
+
+  header {
     width: 100%;
     background-color: #000000;
     display: inline-flex;
     height: 55px;
-}
-/*   whatss   */
-.whatss{
+    position: fixed;
+  }
+
+  /*   whatss   */
+  .whatss {
     width: 38px;
     margin-left: 28%;
     margin-top: 25%;
-}
-/*   whatss   */
-/*   Logo   */
-.imagem-Nome {
+  }
+
+  /*   whatss   */
+  /*   Logo   */
+  .imagem-Nome {
     width: 78px;
     height: auto;
     display: block;
     object-fit: contain;
     margin-left: 33%;
-}
-/*   Logo   */
-/*   Menu   */
+  }
 
-.navbar {
-  background: #000;
-  color: #2290ef;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 27%;
-  font-size: 20px;
-  margin-bottom: 2%;
-}
+  /*   Logo   */
+  /*   Menu   */
 
-.menu-icon {
-  cursor: pointer;
-  font-size: 28px;
-}
+  .navbar {
+    background: #000;
+    color: #2290ef;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24%;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
 
-/* Menu escondido */
-#menu {
-  display: none;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #000000ec;
-  position: fixed;
-  margin-top: 12%;
-  margin-left: 77%;
-  border-radius: 12px;
-}
+  .menu-icon {
+    cursor: pointer;
+    font-size: 28px;
+  }
 
-#menu li {
-  border-bottom: 1px solid #333;
-}
-
-#menu li a {
-  display: block;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  color: #8ecbff;
-}
-
-#menu li a:hover {
-  background: #333;
-}
-
-/*   Menu   */
-.instraga{
-    width: 33px;
-    margin-top: 28%;
-    margin-left: 28%;
+  #menu {
     display: none;
-}
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #000000ec;
+    position: fixed;
+    margin-top: 12%;
+    margin-left: 77%;
+    border-radius: 12px;
+  }
 
+  #menu li {
+    border-bottom: 1px solid #333;
+  }
+
+  #menu li a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    color: #8ecbff;
+  }
+
+  #menu li a:hover {
+    background: #333;
+  }
+
+  /*   Menu   */
+  /*   Inicio   */
+  .inicio {
+    background: linear-gradient(to left, #00aaff, #0066ff);
+    height: 659px;
+    margin-top: 13%;
+    overflow: hidden;
+  }
+
+  .titulo-inicio {
+    color: white;
+    font-family: "Playwrite NO";
+    width: 82%;
+    font-size: 142%;
+    margin-left: 9%;
+    text-align: center;
+    padding-top: 6%;
+  }
+
+  .resumo-inicio {
+    color: white;
+    font-size: 115%;
+    margin: 0 7% 0 7%;
+    position: relative;
+    top: 48px;
+    text-align: center;
+  }
+
+  .contato-inicio {
+    color: white;
+    border-radius: 50px;
+    background-color: #022543;
+    width: 42%;
+    display: flex;
+    height: 55px;
+    position: relative;
+    top: 162px;
+    margin-left: 12%;
+    font-size: 22px;
+    justify-content: center;
+    padding-top: 14px;
+  }
+
+  .img-inicio {
+    margin-top: 3%;
+    width: 85%;
+    margin-left: 38%;
+  }
+
+  .nome-inicio {
+    font-family: "Playfair Display";
+    color: white;
+    top: 363px;
+    position: relative;
+    font-size: 113%;
+    margin-left: 9%;
+  }
+
+  #popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #popup .conteudo {
+    background: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    height: 30%;
+  }
+
+  .fechar {
+    border: #000;
+    background-color: #8795f170;
+    color: black;
+    width: 17%;
+    height: 23%;
+    border-radius: 14px;
+    font-size: 175%;
+    position: relative;
+    bottom: 186px;
+    left: 254px;
+  }
+
+  .conteudo {
+    display: inline;
+  }
+
+  .instraga {
+    width: 33%;
+    margin-top: 25%;
+  }
+
+  .whats {
+    width: 37%;
+    margin-left: 28%;
+  }
+
+  /*   Inicio   */
 
 
 }
