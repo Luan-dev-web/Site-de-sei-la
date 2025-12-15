@@ -224,7 +224,7 @@ body {
     height: 200px;
     border-radius: 25px;
     margin: 8% 5% 8% 5%;
-    background-color: #81c4ff;
+    background-color: #98cfff;
   }
 
   .face {
@@ -245,8 +245,43 @@ body {
   }
 
   /*   Serviços   */
+  /*   historia   */
+  .foto-imagem {
+    width: 90%;
+    margin: 10% 5% 10% 5%;
+  }
 
+  .eu {
+    font-size: 44px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom,#0066ff, #71B2FE );
+    height: 60px;
+  }
 
+  .historia {
+    font-size: 20px;
+    margin: 6%;
+    text-align: center;
+  }
+
+  /*   historia   */
+  /*   postagens   */
+  .posts {
+    font-size: 50px;
+    margin-left: 25%;
+    margin-top: 14%;
+    margin-bottom: 4%;
+  }
+
+  /*   postagens   */
+  /*   local   */
+  .local {
+    font-size: 293%;
+    margin: 10% 5% 5% 23%;
+  }
+
+  /*   local   */
 
 
 
