@@ -73,7 +73,7 @@ body {
   .menu-icon {
     cursor: pointer;
     font-size: 28px;
-    margin-top: 15%;
+    margin-top: 7%;
   }
 
   #menu {
@@ -241,7 +241,6 @@ body {
 
   .resumo1 {
     color: #07477e;
-    margin-top: 12px;
     margin-left: 18px;
     font-size: 19px;
   }
@@ -303,16 +302,17 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 61px;
+    margin-top: -1%;
   }
 
   .foter {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .foter2 {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /*   fim   */
